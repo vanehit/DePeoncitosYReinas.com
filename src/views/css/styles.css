@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Estilos para el texto principal */
+  .main-content {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+
+  #main-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    color: #383838;
+    letter-spacing: 1px;
+    line-height: 32px;
+  }
+
+
+  
+  
+  /* Estilos para los botones */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+/* Estilos para el botón de inicio de sesión en estado normal */
+.navbar-nav .nav-item .nav-link {
+  color: #333; /* Color de texto normal */
+}
+
+/* Estilos para el botón de inicio de sesión en estado hover */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff6600; /* Cambiar el color de texto al pasar el mouse */
+  background-color: transparent; /* Cambiar el fondo al pasar el mouse */
+  border: 1px solid #ff6600; /* Agregar un borde al pasar el mouse */
+  border-radius: 5px; /* Redondear los bordes al pasar el mouse */
+  transition: all 0.3s; /* Agregar una transición suave */
+}
+
+  
