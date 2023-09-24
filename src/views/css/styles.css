@@ -37,16 +37,132 @@
   
 /* Estilos para el botón de inicio de sesión en estado normal */
 .navbar-nav .nav-item .nav-link {
-  color: #333; /* Color de texto normal */
+  color: #333; 
 }
 
 /* Estilos para el botón de inicio de sesión en estado hover */
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ff6600; /* Cambiar el color de texto al pasar el mouse */
-  background-color: transparent; /* Cambiar el fondo al pasar el mouse */
-  border: 1px solid #ff6600; /* Agregar un borde al pasar el mouse */
-  border-radius: 5px; /* Redondear los bordes al pasar el mouse */
-  transition: all 0.3s; /* Agregar una transición suave */
+  color: #ff6600; 
+  background-color: transparent; 
+  border: 1px solid #ff6600; 
+  border-radius: 5px; 
+  transition: all 0.3s; 
 }
+
+/* Estilos para el formulario de inicio de sesión */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-column {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.mugshot {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.form-header h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-body {
+  margin-top: 20px;
+}
+
+.form-heading {
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.remember-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-remember label {
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.new-account a {
+  font-size: 16px;
+}
+
+.new-account a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
 
   
