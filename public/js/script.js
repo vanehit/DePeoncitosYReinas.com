@@ -1,6 +1,5 @@
 // Manejador de evento para el formulario de inicio de sesión
-document.getElementById('login-form').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.addEventListener('DOMContentLoaded', function() {
     
     const loginUsername = document.getElementById('username').value;
     const loginPassword = document.getElementById('password').value;
@@ -12,7 +11,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
     };
     
     // Realizamos la solicitud POST al servidor utilizando Axios para el inicio de sesión
-    axios.post('http://localhost:5000/login', loginData)
+    axios.post('http://localhost:3000/login', loginData)
       .then(response => {
         // Manejamos la respuesta del servidor
         if (response.data) {
